@@ -1,28 +1,28 @@
 {
-  "name": "@wowts/table",
-  "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "ava index.spec.js",
-    "test:watch": "ava -w index.spec.js",
-    "prepublish": "tsc -p ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wowts/table.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wowts/table/issues"
-  },
-  "homepage": "https://github.com/wowts/table#readme",
-  "dependencies": {
-    "@wowts/lua": "^1.0.5"
-  },
-  "devDependencies": {
-    "typescript": "^2.5.3",
-    "ava": "^0.22.0"
-  }
+    "name": "@wowts/table",
+    "version": "1.0.2",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "ava index.spec.js",
+        "test:watch": "ava -w index.spec.js",
+        "prepare": "tsc -p ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wowts/table.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/wowts/table/issues"
+    },
+    "homepage": "https://github.com/wowts/table#readme",
+    "dependencies": {
+        "@wowts/lua": "^1.0.5"
+    },
+    "devDependencies": {
+        "ava": "^0.22.0",
+        "typescript": "^4.1.2"
+    }
 }
